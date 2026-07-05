@@ -1,0 +1,6 @@
+google-adk==2.3.0
+streamlit
+pydantic
+mcp[cli]
+python-dotenv
+pandas
