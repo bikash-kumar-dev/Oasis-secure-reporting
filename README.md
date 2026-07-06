@@ -41,7 +41,7 @@ sequenceDiagram
     participant IA as Incident Analysis Agent (LLM)
     participant Val as Pydantic Validation Layer
     participant MCP as Custom MCP Server
-    database DB as SQLite Database
+    participant DB as SQLite Database
 
     Citizen->>UI: Submit Raw Report
     UI->>Root: Run Sequential Pipeline
